@@ -19,7 +19,7 @@ const {
   const { File } = require('megajs')
   const prefix = '.'
   
-  const ownerNumber = ['923237045919']
+  const ownerNumber = ['923038581755']
   
   //===================SESSION-AUTH============================
   if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -67,22 +67,22 @@ const {
   }
   });
   console.log('Plugins installed successful ✅')
-  console.log('your name connected to whatsapp ✅')
+  console.log('SPIDERMAN connected to whatsapp ✅')
   
   let up =`╔═════════════════╗
-  ║      your name           
+  ║      SPIDERMAN          
   ║  SUCCESSFULLY CONNECTED ✅ 😍        
   ╠═════════════════╣
   ║      • PREFIX: .            
   ╟─────────────────╢
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊         
-  ║ https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306              
+  ║ https://whatsapp.com/channel/0029Vb5iDec9mrGbWmsXXm2I              
   ╟─────────────────╢
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐋𝐈𝐍𝐊          
-  ║ https://wa.me/message/VRZ5QLDAHXKSF1                 
+  ║ https://wa.me/qr/55D4JWRXRVIBH1                 
   ╠═════════════════╣
-  ║      your name               
-  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ your name       
+  ║      SPIDERMAN              
+  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ SPIDERMAN      
   ╚═════════════════╝
 `;
   conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/atby2t.png` }, caption: up })
@@ -90,7 +90,7 @@ const {
   }
   })
   conn.ev.on('creds.update', saveCreds)  
-  
+
   conn.ev.on('messages.upsert', async(mek) => {
   mek = mek.messages[0]
   if (!mek.message) return	
@@ -181,7 +181,7 @@ const {
 
 //owner react
 
-if(senderNumber.includes("923237045919")){
+if(senderNumber.includes("923038581755")){
   if(isReact)return;
   m.react("🔓");  }
 
