@@ -67,10 +67,10 @@ const {
   }
   });
   console.log('Plugins installed successful ✅')
-  console.log('SPIDERMAN connected to whatsapp ✅')
+  console.log('SPIDERMAN-X-MD connected to whatsapp ✅')
   
   let up =`╔═════════════════╗
-  ║      SPIDERMAN          
+  ║      SPIDERMAN-X-MD          
   ║  SUCCESSFULLY CONNECTED ✅ 😍        
   ╠═════════════════╣
   ║      • PREFIX: .            
@@ -82,7 +82,7 @@ const {
   ║ https://wa.me/qr/55D4JWRXRVIBH1                 
   ╠═════════════════╣
   ║      SPIDERMAN              
-  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ SPIDERMAN      
+  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ SPIDERMAN-X-MD      
   ╚═════════════════╝
 `;
   conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/atby2t.png` }, caption: up })
